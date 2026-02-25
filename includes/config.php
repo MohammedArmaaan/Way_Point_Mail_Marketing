@@ -4,10 +4,8 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'practice_way-point');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-//69900d0ead28650d6d53b09e user
-//9Zzos2S4mKNXLgqHC296278g pass
-define('WAYPOINT_USER', 'I have');
-define('WAYPOINT_PASS', 'I have');
+define('WAYPOINT_USER', '69900d0ead28650d6d53b09e');
+define('WAYPOINT_PASS', '9Zzos2S4mKNXLgqHC296278g');
 try {
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
